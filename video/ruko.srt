@@ -1,0 +1,259 @@
+1
+00:00:02,033 --> 00:00:04,866
+[Caller · Ohio] A warrant has been issued for your arrest.
+
+2
+00:00:04,867 --> 00:00:06,000
+[Caller · Ohio] Do not hang up.
+
+3
+00:00:07,000 --> 00:00:09,433
+[Caller · Pune] Madam, you are under digital arrest.
+
+4
+00:00:10,833 --> 00:00:12,099
+Same script.
+
+5
+00:00:12,100 --> 00:00:13,133
+Every country.
+
+6
+00:00:14,067 --> 00:00:17,667
+Authority… fear… isolation… and an unusual payment.
+
+7
+00:00:18,500 --> 00:00:19,566
+Last year,
+
+8
+00:00:19,567 --> 00:00:23,466
+Americans over sixty reported $7.7 billion
+
+9
+00:00:23,467 --> 00:00:25,100
+in losses to the FBI.
+
+10
+00:00:25,767 --> 00:00:28,566
+India has blocked over 83,000 WhatsApp
+
+11
+00:00:28,567 --> 00:00:30,433
+accounts used for digital arrest.
+
+12
+00:00:31,300 --> 00:00:34,733
+Caller ID and awareness only work before the call.
+
+13
+00:00:35,367 --> 00:00:36,567
+Nothing helps during it.
+
+14
+00:00:37,567 --> 00:00:39,032
+So we built Ruko.
+
+15
+00:00:39,033 --> 00:00:41,533
+In Hindi, it means: wait.
+
+16
+00:00:42,133 --> 00:00:44,967
+A calm second voice in the room, during the call.
+
+17
+00:00:45,700 --> 00:00:47,999
+[Caller · Pune] This is Inspector Rajesh Sharma,
+
+18
+00:00:48,000 --> 00:00:49,667
+[Caller · Pune] from Mumbai Cyber Crime.
+
+19
+00:00:50,767 --> 00:00:52,132
+Ruko hears it.
+
+20
+00:00:52,133 --> 00:00:54,832
+On the device, the rules call it safe.
+
+21
+00:00:54,833 --> 00:00:58,300
+Seconds later, Claude says: be careful.
+
+22
+00:00:58,967 --> 00:01:01,566
+[Caller · Pune] You are under digital arrest.
+
+23
+00:01:01,567 --> 00:01:04,733
+[Caller · Pune] Do not disconnect, and do not tell anyone.
+
+24
+00:01:05,867 --> 00:01:08,866
+Every flag quotes the caller's own words.
+
+25
+00:01:08,867 --> 00:01:11,467
+The meter hits danger, and never drops.
+
+26
+00:01:12,167 --> 00:01:13,666
+[Caller · Pune] Transfer your savings to
+
+27
+00:01:13,667 --> 00:01:15,900
+[Caller · Pune] an RBI verification account.
+
+28
+00:01:17,033 --> 00:01:20,600
+Before any money moves, Ruko tells her what to say.
+
+29
+00:01:21,433 --> 00:01:23,532
+[Kamala] I will not transfer any money,
+
+30
+00:01:23,533 --> 00:01:25,166
+[Kamala] and I am hanging up now to
+
+31
+00:01:25,167 --> 00:01:28,033
+[Kamala] call my family and the police directly.
+
+32
+00:01:30,067 --> 00:01:30,932
+Hang up.
+
+33
+00:01:30,933 --> 00:01:32,299
+This is a scam.
+
+34
+00:01:32,300 --> 00:01:34,933
+Help, and family, are one tap away.
+
+35
+00:01:35,800 --> 00:01:37,132
+[Caller · Ohio] You can settle the balance right
+
+36
+00:01:37,133 --> 00:01:38,633
+[Caller · Ohio] now with Apple gift cards.
+
+37
+00:01:39,767 --> 00:01:41,466
+Same script in Ohio.
+
+38
+00:01:41,467 --> 00:01:42,500
+Same catch.
+
+39
+00:01:43,267 --> 00:01:45,532
+[Frank] I am not paying anything over the phone,
+
+40
+00:01:45,533 --> 00:01:47,033
+[Frank] and I am hanging up now.
+
+41
+00:01:48,400 --> 00:01:49,499
+[Bank caller] Please remember,
+
+42
+00:01:49,500 --> 00:01:52,500
+[Bank caller] the bank will never ask for your PIN or OTP.
+
+43
+00:01:53,667 --> 00:01:54,966
+And a real call?
+
+44
+00:01:54,967 --> 00:01:57,266
+No red flags, no warning.
+
+45
+00:01:57,267 --> 00:01:58,967
+Just a gentle be careful.
+
+46
+00:01:59,667 --> 00:02:01,266
+A strange text?
+
+47
+00:02:01,267 --> 00:02:02,399
+Paste it in.
+
+48
+00:02:02,400 --> 00:02:04,333
+Same verdict, in seconds.
+
+49
+00:02:05,000 --> 00:02:08,366
+On your device, rules for 13 scam tactics,
+
+50
+00:02:08,367 --> 00:02:12,167
+in English, Hindi and Hinglish, react instantly.
+
+51
+00:02:12,800 --> 00:02:16,000
+Claude reads the intent, and quotes the caller.
+
+52
+00:02:16,633 --> 00:02:18,299
+Ruko shows the higher score,
+
+53
+00:02:18,300 --> 00:02:20,533
+so a scammer can't talk it back to green.
+
+54
+00:02:21,233 --> 00:02:23,300
+On 32 cases we wrote:
+
+55
+00:02:23,900 --> 00:02:27,266
+Rules alone caught 16 of 18 scams.
+
+56
+00:02:27,267 --> 00:02:29,433
+With Claude, all 18.
+
+57
+00:02:30,067 --> 00:02:32,966
+2 of 14 real ones still got a caution.
+
+58
+00:02:32,967 --> 00:02:34,100
+We show that too.
+
+59
+00:02:34,833 --> 00:02:36,099
+No accounts.
+
+60
+00:02:36,100 --> 00:02:38,399
+No audio leaves the device.
+
+61
+00:02:38,400 --> 00:02:41,533
+Big type, screen-reader announcements, and Hindi.
+
+62
+00:02:42,200 --> 00:02:44,932
+Next: Android call screening, more languages,
+
+63
+00:02:44,933 --> 00:02:47,333
+and bank and NGO partners.
+
+64
+00:02:47,967 --> 00:02:48,966
+Ruko.
+
+65
+00:02:48,967 --> 00:02:50,533
+Wait, before you pay.

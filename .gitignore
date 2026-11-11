@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# demo film (renders, intermediates, large media)
+/video/node_modules/
+/video/out/
+/video/capture/
+/video/public/shots/
+/video/public/vo/
+/video/public/audio/
+/video/public/noise.png
+*.mp4
+/video/captions/
+/video/gallery/

@@ -1,6 +1,6 @@
 {
   "cases": 32,
-  "ranAt": "2026-11-11T12:08:24.414Z",
+  "ranAt": "2026-11-11T13:41:25.580Z",
   "rows": [
     {
       "name": "Rules only",
@@ -10,6 +10,24 @@
       "legit": 14,
       "recall": 0.8888888888888888,
       "precision": 0.8888888888888888
+    },
+    {
+      "name": "AI only",
+      "caught": 18,
+      "scams": 18,
+      "falseAlarms": 0,
+      "legit": 14,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "name": "Ruko (hybrid)",
+      "caught": 18,
+      "scams": 18,
+      "falseAlarms": 2,
+      "legit": 14,
+      "recall": 1,
+      "precision": 0.9
     }
   ]
 }

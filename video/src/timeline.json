@@ -1,0 +1,2312 @@
+{
+ "fps": 30,
+ "transition": 18,
+ "total": 5216,
+ "scenes": [
+  {
+   "id": "cold",
+   "from": 0,
+   "dur": 424
+  },
+  {
+   "id": "problem",
+   "from": 406,
+   "dur": 717
+  },
+  {
+   "id": "reveal",
+   "from": 1105,
+   "dur": 268
+  },
+  {
+   "id": "demo",
+   "from": 1355,
+   "dur": 1523
+  },
+  {
+   "id": "irs",
+   "from": 2860,
+   "dur": 395
+  },
+  {
+   "id": "bank",
+   "from": 3237,
+   "dur": 360
+  },
+  {
+   "id": "check",
+   "from": 3579,
+   "dur": 176
+  },
+  {
+   "id": "how",
+   "from": 3737,
+   "dur": 504
+  },
+  {
+   "id": "proof",
+   "from": 4223,
+   "dur": 428
+  },
+  {
+   "id": "trust",
+   "from": 4633,
+   "dur": 238
+  },
+  {
+   "id": "close",
+   "from": 4853,
+   "dur": 363
+  }
+ ],
+ "lines": [
+  {
+   "id": "c1",
+   "scene": "cold",
+   "from": 56,
+   "local": 56,
+   "dur": 146,
+   "src": "vo/c1.mp3",
+   "text": "A warrant has been issued for your arrest. Do not hang up.",
+   "who": "Caller \u00b7 Ohio",
+   "phrases": [
+    {
+     "text": "A warrant has been issued for your arrest.",
+     "start": 0.167,
+     "end": 2.992
+    },
+    {
+     "text": "Do not hang up.",
+     "start": 2.993,
+     "end": 4.014
+    }
+   ],
+   "words": [
+    {
+     "w": "A",
+     "f": 3
+    },
+    {
+     "w": "warrant",
+     "f": 7
+    },
+    {
+     "w": "has",
+     "f": 18
+    },
+    {
+     "w": "been",
+     "f": 23
+    },
+    {
+     "w": "issued",
+     "f": 29
+    },
+    {
+     "w": "for",
+     "f": 38
+    },
+    {
+     "w": "your",
+     "f": 44
+    },
+    {
+     "w": "arrest",
+     "f": 49
+    },
+    {
+     "w": "Do",
+     "f": 90
+    },
+    {
+     "w": "not",
+     "f": 96
+    },
+    {
+     "w": "hang",
+     "f": 104
+    },
+    {
+     "w": "up",
+     "f": 112
+    }
+   ],
+   "onset": 0.19
+  },
+  {
+   "id": "c2",
+   "scene": "cold",
+   "from": 206,
+   "local": 206,
+   "dur": 100,
+   "src": "vo/c2.mp3",
+   "text": "Madam, you are under digital arrest.",
+   "who": "Caller \u00b7 Pune",
+   "phrases": [
+    {
+     "text": "Madam, you are under digital arrest.",
+     "start": 0.133,
+     "end": 2.44
+    }
+   ],
+   "words": [
+    {
+     "w": "Madam",
+     "f": 3
+    },
+    {
+     "w": "you",
+     "f": 19
+    },
+    {
+     "w": "are",
+     "f": 25
+    },
+    {
+     "w": "under",
+     "f": 33
+    },
+    {
+     "w": "digital",
+     "f": 45
+    },
+    {
+     "w": "arrest",
+     "f": 61
+    }
+   ],
+   "onset": 0.153
+  },
+  {
+   "id": "c4",
+   "scene": "cold",
+   "from": 320,
+   "local": 320,
+   "dur": 82,
+   "src": "vo/c4.mp3",
+   "text": "Same script. Every country.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "Same script.",
+     "start": 0.167,
+     "end": 1.4400000000000002
+    },
+    {
+     "text": "Every country.",
+     "start": 1.441,
+     "end": 2.334
+    }
+   ],
+   "words": [
+    {
+     "w": "Same",
+     "f": 3
+    },
+    {
+     "w": "script",
+     "f": 15
+    },
+    {
+     "w": "Every",
+     "f": 43
+    },
+    {
+     "w": "country",
+     "f": 53
+    }
+   ],
+   "onset": 0.172
+  },
+  {
+   "id": "p2",
+   "scene": "problem",
+   "from": 420,
+   "local": 14,
+   "dur": 118,
+   "src": "vo/p2.mp3",
+   "text": "Authority\u2026 fear\u2026 isolation\u2026 and an unusual payment.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "Authority\u2026 fear\u2026 isolation\u2026 and an unusual payment.",
+     "start": 0.067,
+     "end": 3.546
+    }
+   ],
+   "words": [
+    {
+     "w": "Authority",
+     "f": 2
+    },
+    {
+     "w": "fear",
+     "f": 17
+    },
+    {
+     "w": "isolation",
+     "f": 29
+    },
+    {
+     "w": "and",
+     "f": 54
+    },
+    {
+     "w": "an",
+     "f": 68
+    },
+    {
+     "w": "unusual",
+     "f": 73
+    },
+    {
+     "w": "payment",
+     "f": 90
+    }
+   ],
+   "onset": 0.096
+  },
+  {
+   "id": "p3",
+   "scene": "problem",
+   "from": 552,
+   "local": 146,
+   "dur": 209,
+   "src": "vo/p3.mp3",
+   "text": "Last year, Americans over sixty reported $7.7 billion in losses to the FBI.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "Last year,",
+     "start": 0.1,
+     "end": 1.1720000000000002
+    },
+    {
+     "text": "Americans over sixty reported $7.7 billion",
+     "start": 1.173,
+     "end": 5.063
+    },
+    {
+     "text": "in losses to the FBI.",
+     "start": 5.064,
+     "end": 6.582
+    }
+   ],
+   "words": [
+    {
+     "w": "Last",
+     "f": 2
+    },
+    {
+     "w": "year",
+     "f": 12
+    },
+    {
+     "w": "Americans",
+     "f": 35
+    },
+    {
+     "w": "over",
+     "f": 55
+    },
+    {
+     "w": "sixty",
+     "f": 62
+    },
+    {
+     "w": "reported",
+     "f": 77
+    },
+    {
+     "w": "seven",
+     "f": 92
+    },
+    {
+     "w": "point",
+     "f": 106
+    },
+    {
+     "w": "seven",
+     "f": 116
+    },
+    {
+     "w": "billion",
+     "f": 128
+    },
+    {
+     "w": "dollars",
+     "f": 139
+    },
+    {
+     "w": "in",
+     "f": 152
+    },
+    {
+     "w": "losses",
+     "f": 157
+    },
+    {
+     "w": "to",
+     "f": 173
+    },
+    {
+     "w": "the",
+     "f": 176
+    },
+    {
+     "w": "FBI",
+     "f": 179
+    }
+   ],
+   "onset": 0.106
+  },
+  {
+   "id": "p4",
+   "scene": "problem",
+   "from": 769,
+   "local": 363,
+   "dur": 152,
+   "src": "vo/p4.mp3",
+   "text": "India has blocked over 83,000 WhatsApp accounts used for digital arrest.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "India has blocked over 83,000 WhatsApp",
+     "start": 0.133,
+     "end": 2.921
+    },
+    {
+     "text": "accounts used for digital arrest.",
+     "start": 2.921,
+     "end": 4.681
+    }
+   ],
+   "words": [
+    {
+     "w": "India",
+     "f": 3
+    },
+    {
+     "w": "has",
+     "f": 15
+    },
+    {
+     "w": "blocked",
+     "f": 21
+    },
+    {
+     "w": "over",
+     "f": 34
+    },
+    {
+     "w": "eighty-three",
+     "f": 47
+    },
+    {
+     "w": "thousand",
+     "f": 62
+    },
+    {
+     "w": "WhatsApp",
+     "f": 76
+    },
+    {
+     "w": "accounts",
+     "f": 88
+    },
+    {
+     "w": "used",
+     "f": 100
+    },
+    {
+     "w": "for",
+     "f": 109
+    },
+    {
+     "w": "digital",
+     "f": 114
+    },
+    {
+     "w": "arrest",
+     "f": 124
+    }
+   ],
+   "onset": 0.153
+  },
+  {
+   "id": "p5",
+   "scene": "problem",
+   "from": 935,
+   "local": 529,
+   "dur": 115,
+   "src": "vo/p5.mp3",
+   "text": "Caller ID and awareness only work before the call.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "Caller ID and awareness only work before the call.",
+     "start": 0.133,
+     "end": 3.444
+    }
+   ],
+   "words": [
+    {
+     "w": "Caller",
+     "f": 3
+    },
+    {
+     "w": "ID",
+     "f": 15
+    },
+    {
+     "w": "and",
+     "f": 31
+    },
+    {
+     "w": "awareness",
+     "f": 42
+    },
+    {
+     "w": "only",
+     "f": 61
+    },
+    {
+     "w": "work",
+     "f": 70
+    },
+    {
+     "w": "before",
+     "f": 80
+    },
+    {
+     "w": "the",
+     "f": 89
+    },
+    {
+     "w": "call",
+     "f": 91
+    }
+   ],
+   "onset": 0.15
+  },
+  {
+   "id": "p6",
+   "scene": "problem",
+   "from": 1058,
+   "local": 652,
+   "dur": 47,
+   "src": "vo/p6.mp3",
+   "text": "Nothing helps during it.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "Nothing helps during it.",
+     "start": 0.1,
+     "end": 1.161
+    }
+   ],
+   "words": [
+    {
+     "w": "Nothing",
+     "f": 2
+    },
+    {
+     "w": "helps",
+     "f": 13
+    },
+    {
+     "w": "during",
+     "f": 21
+    },
+    {
+     "w": "it",
+     "f": 29
+    }
+   ],
+   "onset": 0.13
+  },
+  {
+   "id": "r1",
+   "scene": "reveal",
+   "from": 1121,
+   "local": 16,
+   "dur": 132,
+   "src": "vo/r1.mp3",
+   "text": "So we built Ruko. In Hindi, it means: wait.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "So we built Ruko.",
+     "start": 0.2,
+     "end": 1.657
+    },
+    {
+     "text": "In Hindi, it means: wait.",
+     "start": 1.658,
+     "end": 4.043
+    }
+   ],
+   "words": [
+    {
+     "w": "So",
+     "f": 3
+    },
+    {
+     "w": "we",
+     "f": 10
+    },
+    {
+     "w": "built",
+     "f": 14
+    },
+    {
+     "w": "Rooko",
+     "f": 23
+    },
+    {
+     "w": "In",
+     "f": 50
+    },
+    {
+     "w": "Hindi",
+     "f": 53
+    },
+    {
+     "w": "it",
+     "f": 75
+    },
+    {
+     "w": "means",
+     "f": 78
+    },
+    {
+     "w": "wait",
+     "f": 108
+    }
+   ],
+   "onset": 0.209
+  },
+  {
+   "id": "r2",
+   "scene": "reveal",
+   "from": 1261,
+   "local": 156,
+   "dur": 96,
+   "src": "vo/r2.mp3",
+   "text": "A calm second voice in the room, during the call.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "A calm second voice in the room, during the call.",
+     "start": 0.1,
+     "end": 2.806
+    }
+   ],
+   "words": [
+    {
+     "w": "A",
+     "f": 2
+    },
+    {
+     "w": "calm",
+     "f": 5
+    },
+    {
+     "w": "second",
+     "f": 17
+    },
+    {
+     "w": "voice",
+     "f": 30
+    },
+    {
+     "w": "in",
+     "f": 39
+    },
+    {
+     "w": "the",
+     "f": 41
+    },
+    {
+     "w": "room",
+     "f": 43
+    },
+    {
+     "w": "during",
+     "f": 62
+    },
+    {
+     "w": "the",
+     "f": 68
+    },
+    {
+     "w": "call",
+     "f": 69
+    }
+   ],
+   "onset": 0.13
+  },
+  {
+   "id": "d1",
+   "scene": "demo",
+   "from": 1365,
+   "local": 10,
+   "dur": 147,
+   "src": "vo/d1.mp3",
+   "text": "This is Inspector Rajesh Sharma, from Mumbai Cyber Crime.",
+   "who": "Caller \u00b7 Pune",
+   "phrases": [
+    {
+     "text": "This is Inspector Rajesh Sharma,",
+     "start": 0.2,
+     "end": 2.5
+    },
+    {
+     "text": "from Mumbai Cyber Crime.",
+     "start": 2.501,
+     "end": 4.021
+    }
+   ],
+   "words": [
+    {
+     "w": "This",
+     "f": 3
+    },
+    {
+     "w": "is",
+     "f": 13
+    },
+    {
+     "w": "Inspector",
+     "f": 21
+    },
+    {
+     "w": "Rajesh",
+     "f": 40
+    },
+    {
+     "w": "Sharma",
+     "f": 54
+    },
+    {
+     "w": "from",
+     "f": 75
+    },
+    {
+     "w": "Mumbai",
+     "f": 83
+    },
+    {
+     "w": "Cyber",
+     "f": 94
+    },
+    {
+     "w": "Crime",
+     "f": 107
+    }
+   ],
+   "onset": 0.219
+  },
+  {
+   "id": "d2",
+   "scene": "demo",
+   "from": 1520,
+   "local": 165,
+   "dur": 237,
+   "src": "vo/d2.mp3",
+   "text": "Ruko hears it. On the device, the rules call it safe. Seconds later, Claude says: be careful.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "Ruko hears it.",
+     "start": 0.1,
+     "end": 1.453
+    },
+    {
+     "text": "On the device, the rules call it safe.",
+     "start": 1.454,
+     "end": 4.17
+    },
+    {
+     "text": "Seconds later, Claude says: be careful.",
+     "start": 4.171,
+     "end": 7.487
+    }
+   ],
+   "words": [
+    {
+     "w": "Rooko",
+     "f": 2
+    },
+    {
+     "w": "hears",
+     "f": 13
+    },
+    {
+     "w": "it",
+     "f": 25
+    },
+    {
+     "w": "On",
+     "f": 44
+    },
+    {
+     "w": "the",
+     "f": 47
+    },
+    {
+     "w": "device",
+     "f": 50
+    },
+    {
+     "w": "the",
+     "f": 73
+    },
+    {
+     "w": "rules",
+     "f": 77
+    },
+    {
+     "w": "call",
+     "f": 90
+    },
+    {
+     "w": "it",
+     "f": 97
+    },
+    {
+     "w": "safe",
+     "f": 99
+    },
+    {
+     "w": "Seconds",
+     "f": 125
+    },
+    {
+     "w": "later",
+     "f": 139
+    },
+    {
+     "w": "Claude",
+     "f": 162
+    },
+    {
+     "w": "says",
+     "f": 173
+    },
+    {
+     "w": "be",
+     "f": 203
+    },
+    {
+     "w": "careful",
+     "f": 207
+    }
+   ],
+   "onset": 0.107
+  },
+  {
+   "id": "d3",
+   "scene": "demo",
+   "from": 1765,
+   "local": 410,
+   "dur": 199,
+   "src": "vo/d3.mp3",
+   "text": "You are under digital arrest. Do not disconnect, and do not tell anyone.",
+   "who": "Caller \u00b7 Pune",
+   "phrases": [
+    {
+     "text": "You are under digital arrest.",
+     "start": 0.133,
+     "end": 2.72
+    },
+    {
+     "text": "Do not disconnect, and do not tell anyone.",
+     "start": 2.721,
+     "end": 5.76
+    }
+   ],
+   "words": [
+    {
+     "w": "You",
+     "f": 3
+    },
+    {
+     "w": "are",
+     "f": 8
+    },
+    {
+     "w": "under",
+     "f": 17
+    },
+    {
+     "w": "digital",
+     "f": 29
+    },
+    {
+     "w": "arrest",
+     "f": 43
+    },
+    {
+     "w": "Do",
+     "f": 82
+    },
+    {
+     "w": "not",
+     "f": 89
+    },
+    {
+     "w": "disconnect",
+     "f": 99
+    },
+    {
+     "w": "and",
+     "f": 126
+    },
+    {
+     "w": "do",
+     "f": 132
+    },
+    {
+     "w": "not",
+     "f": 137
+    },
+    {
+     "w": "tell",
+     "f": 147
+    },
+    {
+     "w": "anyone",
+     "f": 157
+    }
+   ],
+   "onset": 0.156
+  },
+  {
+   "id": "d4",
+   "scene": "demo",
+   "from": 1972,
+   "local": 617,
+   "dur": 180,
+   "src": "vo/d4.mp3",
+   "text": "Every flag quotes the caller's own words. The meter hits danger, and never drops.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "Every flag quotes the caller's own words.",
+     "start": 0.133,
+     "end": 3.137
+    },
+    {
+     "text": "The meter hits danger, and never drops.",
+     "start": 3.138,
+     "end": 5.612
+    }
+   ],
+   "words": [
+    {
+     "w": "Every",
+     "f": 3
+    },
+    {
+     "w": "flag",
+     "f": 11
+    },
+    {
+     "w": "quotes",
+     "f": 26
+    },
+    {
+     "w": "the",
+     "f": 39
+    },
+    {
+     "w": "caller's",
+     "f": 42
+    },
+    {
+     "w": "own",
+     "f": 59
+    },
+    {
+     "w": "words",
+     "f": 66
+    },
+    {
+     "w": "The",
+     "f": 94
+    },
+    {
+     "w": "meter",
+     "f": 96
+    },
+    {
+     "w": "hits",
+     "f": 106
+    },
+    {
+     "w": "danger",
+     "f": 114
+    },
+    {
+     "w": "and",
+     "f": 137
+    },
+    {
+     "w": "never",
+     "f": 142
+    },
+    {
+     "w": "drops",
+     "f": 151
+    }
+   ],
+   "onset": 0.144
+  },
+  {
+   "id": "d5",
+   "scene": "demo",
+   "from": 2160,
+   "local": 805,
+   "dur": 139,
+   "src": "vo/d5.mp3",
+   "text": "Transfer your savings to an RBI verification account.",
+   "who": "Caller \u00b7 Pune",
+   "phrases": [
+    {
+     "text": "Transfer your savings to",
+     "start": 0.167,
+     "end": 1.655
+    },
+    {
+     "text": "an RBI verification account.",
+     "start": 1.655,
+     "end": 3.763
+    }
+   ],
+   "words": [
+    {
+     "w": "Transfer",
+     "f": 3
+    },
+    {
+     "w": "your",
+     "f": 20
+    },
+    {
+     "w": "savings",
+     "f": 29
+    },
+    {
+     "w": "to",
+     "f": 46
+    },
+    {
+     "w": "an",
+     "f": 50
+    },
+    {
+     "w": "RBI",
+     "f": 56
+    },
+    {
+     "w": "verification",
+     "f": 75
+    },
+    {
+     "w": "account",
+     "f": 99
+    }
+   ],
+   "onset": 0.189
+  },
+  {
+   "id": "d6",
+   "scene": "demo",
+   "from": 2307,
+   "local": 952,
+   "dur": 118,
+   "src": "vo/d6.mp3",
+   "text": "Before any money moves, Ruko tells her what to say.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "Before any money moves, Ruko tells her what to say.",
+     "start": 0.133,
+     "end": 3.559
+    }
+   ],
+   "words": [
+    {
+     "w": "Before",
+     "f": 3
+    },
+    {
+     "w": "any",
+     "f": 18
+    },
+    {
+     "w": "money",
+     "f": 24
+    },
+    {
+     "w": "moves",
+     "f": 33
+    },
+    {
+     "w": "Rooko",
+     "f": 63
+    },
+    {
+     "w": "tells",
+     "f": 73
+    },
+    {
+     "w": "her",
+     "f": 83
+    },
+    {
+     "w": "what",
+     "f": 87
+    },
+    {
+     "w": "to",
+     "f": 91
+    },
+    {
+     "w": "say",
+     "f": 94
+    }
+   ],
+   "onset": 0.143
+  },
+  {
+   "id": "d7",
+   "scene": "demo",
+   "from": 2435,
+   "local": 1080,
+   "dur": 232,
+   "src": "vo/d7.mp3",
+   "text": "I will not transfer any money, and I am hanging up now to call my family and the police directly.",
+   "who": "Kamala",
+   "phrases": [
+    {
+     "text": "I will not transfer any money,",
+     "start": 0.267,
+     "end": 2.382
+    },
+    {
+     "text": "and I am hanging up now to",
+     "start": 2.383,
+     "end": 3.998
+    },
+    {
+     "text": "call my family and the police directly.",
+     "start": 3.999,
+     "end": 6.744
+    }
+   ],
+   "words": [
+    {
+     "w": "I",
+     "f": 3
+    },
+    {
+     "w": "will",
+     "f": 11
+    },
+    {
+     "w": "not",
+     "f": 16
+    },
+    {
+     "w": "transfer",
+     "f": 25
+    },
+    {
+     "w": "any",
+     "f": 44
+    },
+    {
+     "w": "money",
+     "f": 51
+    },
+    {
+     "w": "and",
+     "f": 71
+    },
+    {
+     "w": "I",
+     "f": 80
+    },
+    {
+     "w": "am",
+     "f": 83
+    },
+    {
+     "w": "hanging",
+     "f": 87
+    },
+    {
+     "w": "up",
+     "f": 100
+    },
+    {
+     "w": "now",
+     "f": 107
+    },
+    {
+     "w": "to",
+     "f": 116
+    },
+    {
+     "w": "call",
+     "f": 120
+    },
+    {
+     "w": "my",
+     "f": 131
+    },
+    {
+     "w": "family",
+     "f": 136
+    },
+    {
+     "w": "and",
+     "f": 155
+    },
+    {
+     "w": "the",
+     "f": 163
+    },
+    {
+     "w": "police",
+     "f": 166
+    },
+    {
+     "w": "directly",
+     "f": 179
+    }
+   ],
+   "onset": 0.278
+  },
+  {
+   "id": "d8",
+   "scene": "demo",
+   "from": 2697,
+   "local": 1342,
+   "dur": 159,
+   "src": "vo/d8.mp3",
+   "text": "Hang up. This is a scam. Help, and family, are one tap away.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "Hang up.",
+     "start": 0.167,
+     "end": 1.032
+    },
+    {
+     "text": "This is a scam.",
+     "start": 1.033,
+     "end": 2.3970000000000002
+    },
+    {
+     "text": "Help, and family, are one tap away.",
+     "start": 2.398,
+     "end": 4.911
+    }
+   ],
+   "words": [
+    {
+     "w": "Hang",
+     "f": 3
+    },
+    {
+     "w": "up",
+     "f": 11
+    },
+    {
+     "w": "This",
+     "f": 31
+    },
+    {
+     "w": "is",
+     "f": 38
+    },
+    {
+     "w": "a",
+     "f": 41
+    },
+    {
+     "w": "scam",
+     "f": 42
+    },
+    {
+     "w": "Help",
+     "f": 72
+    },
+    {
+     "w": "and",
+     "f": 83
+    },
+    {
+     "w": "family",
+     "f": 87
+    },
+    {
+     "w": "are",
+     "f": 113
+    },
+    {
+     "w": "one",
+     "f": 119
+    },
+    {
+     "w": "tap",
+     "f": 127
+    },
+    {
+     "w": "away",
+     "f": 135
+    }
+   ],
+   "onset": 0.182
+  },
+  {
+   "id": "i1",
+   "scene": "irs",
+   "from": 2868,
+   "local": 8,
+   "dur": 113,
+   "src": "vo/i1.mp3",
+   "text": "You can settle the balance right now with Apple gift cards.",
+   "who": "Caller \u00b7 Ohio",
+   "phrases": [
+    {
+     "text": "You can settle the balance right",
+     "start": 0.2,
+     "end": 1.5270000000000001
+    },
+    {
+     "text": "now with Apple gift cards.",
+     "start": 1.528,
+     "end": 2.899
+    }
+   ],
+   "words": [
+    {
+     "w": "You",
+     "f": 3
+    },
+    {
+     "w": "can",
+     "f": 9
+    },
+    {
+     "w": "settle",
+     "f": 14
+    },
+    {
+     "w": "the",
+     "f": 23
+    },
+    {
+     "w": "balance",
+     "f": 27
+    },
+    {
+     "w": "right",
+     "f": 39
+    },
+    {
+     "w": "now",
+     "f": 46
+    },
+    {
+     "w": "with",
+     "f": 51
+    },
+    {
+     "w": "Apple",
+     "f": 57
+    },
+    {
+     "w": "gift",
+     "f": 66
+    },
+    {
+     "w": "cards",
+     "f": 74
+    }
+   ],
+   "onset": 0.223
+  },
+  {
+   "id": "i2",
+   "scene": "irs",
+   "from": 2989,
+   "local": 129,
+   "dur": 94,
+   "src": "vo/i2.mp3",
+   "text": "Same script in Ohio. Same catch.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "Same script in Ohio.",
+     "start": 0.133,
+     "end": 1.848
+    },
+    {
+     "text": "Same catch.",
+     "start": 1.849,
+     "end": 2.742
+    }
+   ],
+   "words": [
+    {
+     "w": "Same",
+     "f": 2
+    },
+    {
+     "w": "script",
+     "f": 14
+    },
+    {
+     "w": "in",
+     "f": 25
+    },
+    {
+     "w": "Ohio",
+     "f": 28
+    },
+    {
+     "w": "Same",
+     "f": 55
+    },
+    {
+     "w": "catch",
+     "f": 67
+    }
+   ],
+   "onset": 0.147
+  },
+  {
+   "id": "i3",
+   "scene": "irs",
+   "from": 3091,
+   "local": 231,
+   "dur": 144,
+   "src": "vo/i3.mp3",
+   "text": "I am not paying anything over the phone, and I am hanging up now.",
+   "who": "Frank",
+   "phrases": [
+    {
+     "text": "I am not paying anything over the phone,",
+     "start": 0.233,
+     "end": 2.496
+    },
+    {
+     "text": "and I am hanging up now.",
+     "start": 2.497,
+     "end": 3.853
+    }
+   ],
+   "words": [
+    {
+     "w": "I",
+     "f": 3
+    },
+    {
+     "w": "am",
+     "f": 9
+    },
+    {
+     "w": "not",
+     "f": 13
+    },
+    {
+     "w": "paying",
+     "f": 20
+    },
+    {
+     "w": "anything",
+     "f": 32
+    },
+    {
+     "w": "over",
+     "f": 45
+    },
+    {
+     "w": "the",
+     "f": 51
+    },
+    {
+     "w": "phone",
+     "f": 54
+    },
+    {
+     "w": "and",
+     "f": 75
+    },
+    {
+     "w": "I",
+     "f": 79
+    },
+    {
+     "w": "am",
+     "f": 83
+    },
+    {
+     "w": "hanging",
+     "f": 86
+    },
+    {
+     "w": "up",
+     "f": 99
+    },
+    {
+     "w": "now",
+     "f": 104
+    }
+   ],
+   "onset": 0.242
+  },
+  {
+   "id": "b1",
+   "scene": "bank",
+   "from": 3247,
+   "local": 10,
+   "dur": 152,
+   "src": "vo/b1.mp3",
+   "text": "Please remember, the bank will never ask for your PIN or OTP.",
+   "who": "Bank caller",
+   "phrases": [
+    {
+     "text": "Please remember,",
+     "start": 0.167,
+     "end": 1.2750000000000001
+    },
+    {
+     "text": "the bank will never ask for your PIN or OTP.",
+     "start": 1.276,
+     "end": 4.137
+    }
+   ],
+   "words": [
+    {
+     "w": "Please",
+     "f": 3
+    },
+    {
+     "w": "remember",
+     "f": 12
+    },
+    {
+     "w": "the",
+     "f": 38
+    },
+    {
+     "w": "bank",
+     "f": 42
+    },
+    {
+     "w": "will",
+     "f": 53
+    },
+    {
+     "w": "never",
+     "f": 58
+    },
+    {
+     "w": "ask",
+     "f": 69
+    },
+    {
+     "w": "for",
+     "f": 78
+    },
+    {
+     "w": "your",
+     "f": 83
+    },
+    {
+     "w": "PIN",
+     "f": 88
+    },
+    {
+     "w": "or",
+     "f": 99
+    },
+    {
+     "w": "OTP",
+     "f": 107
+    }
+   ],
+   "onset": 0.178
+  },
+  {
+   "id": "b2",
+   "scene": "bank",
+   "from": 3407,
+   "local": 170,
+   "dur": 170,
+   "src": "vo/b2.mp3",
+   "text": "And a real call? No red flags, no warning. Just a gentle be careful.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "And a real call?",
+     "start": 0.1,
+     "end": 1.4020000000000001
+    },
+    {
+     "text": "No red flags, no warning.",
+     "start": 1.403,
+     "end": 3.7110000000000003
+    },
+    {
+     "text": "Just a gentle be careful.",
+     "start": 3.712,
+     "end": 5.281
+    }
+   ],
+   "words": [
+    {
+     "w": "And",
+     "f": 2
+    },
+    {
+     "w": "a",
+     "f": 5
+    },
+    {
+     "w": "real",
+     "f": 7
+    },
+    {
+     "w": "call",
+     "f": 17
+    },
+    {
+     "w": "No",
+     "f": 42
+    },
+    {
+     "w": "red",
+     "f": 52
+    },
+    {
+     "w": "flags",
+     "f": 59
+    },
+    {
+     "w": "no",
+     "f": 78
+    },
+    {
+     "w": "warning",
+     "f": 86
+    },
+    {
+     "w": "Just",
+     "f": 111
+    },
+    {
+     "w": "a",
+     "f": 122
+    },
+    {
+     "w": "gentle",
+     "f": 125
+    },
+    {
+     "w": "be",
+     "f": 137
+    },
+    {
+     "w": "careful",
+     "f": 141
+    }
+   ],
+   "onset": 0.124
+  },
+  {
+   "id": "k1",
+   "scene": "check",
+   "from": 3587,
+   "local": 8,
+   "dur": 150,
+   "src": "vo/k1.mp3",
+   "text": "A strange text? Paste it in. Same verdict, in seconds.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "A strange text?",
+     "start": 0.1,
+     "end": 1.683
+    },
+    {
+     "text": "Paste it in.",
+     "start": 1.684,
+     "end": 2.818
+    },
+    {
+     "text": "Same verdict, in seconds.",
+     "start": 2.819,
+     "end": 4.617
+    }
+   ],
+   "words": [
+    {
+     "w": "A",
+     "f": 2
+    },
+    {
+     "w": "strange",
+     "f": 5
+    },
+    {
+     "w": "text",
+     "f": 23
+    },
+    {
+     "w": "Paste",
+     "f": 51
+    },
+    {
+     "w": "it",
+     "f": 60
+    },
+    {
+     "w": "in",
+     "f": 63
+    },
+    {
+     "w": "Same",
+     "f": 85
+    },
+    {
+     "w": "verdict",
+     "f": 95
+    },
+    {
+     "w": "in",
+     "f": 114
+    },
+    {
+     "w": "seconds",
+     "f": 119
+    }
+   ],
+   "onset": 0.127
+  },
+  {
+   "id": "h2",
+   "scene": "how",
+   "from": 3747,
+   "local": 10,
+   "dur": 225,
+   "src": "vo/h2.mp3",
+   "text": "On your device, rules for 13 scam tactics, in English, Hindi and Hinglish, react instantly.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "On your device, rules for 13 scam tactics,",
+     "start": 0.1,
+     "end": 3.468
+    },
+    {
+     "text": "in English, Hindi and Hinglish, react instantly.",
+     "start": 3.469,
+     "end": 7.143
+    }
+   ],
+   "words": [
+    {
+     "w": "On",
+     "f": 2
+    },
+    {
+     "w": "your",
+     "f": 6
+    },
+    {
+     "w": "device",
+     "f": 10
+    },
+    {
+     "w": "rules",
+     "f": 36
+    },
+    {
+     "w": "for",
+     "f": 47
+    },
+    {
+     "w": "thirteen",
+     "f": 52
+    },
+    {
+     "w": "scam",
+     "f": 69
+    },
+    {
+     "w": "tactics",
+     "f": 80
+    },
+    {
+     "w": "in",
+     "f": 104
+    },
+    {
+     "w": "English",
+     "f": 108
+    },
+    {
+     "w": "Hindi",
+     "f": 135
+    },
+    {
+     "w": "and",
+     "f": 146
+    },
+    {
+     "w": "Hinglish",
+     "f": 152
+    },
+    {
+     "w": "react",
+     "f": 181
+    },
+    {
+     "w": "instantly",
+     "f": 196
+    }
+   ],
+   "onset": 0.119
+  },
+  {
+   "id": "h3",
+   "scene": "how",
+   "from": 3980,
+   "local": 243,
+   "dur": 108,
+   "src": "vo/h3.mp3",
+   "text": "Claude reads the intent, and quotes the caller.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "Claude reads the intent, and quotes the caller.",
+     "start": 0.133,
+     "end": 3.202
+    }
+   ],
+   "words": [
+    {
+     "w": "Claude",
+     "f": 3
+    },
+    {
+     "w": "reads",
+     "f": 16
+    },
+    {
+     "w": "the",
+     "f": 27
+    },
+    {
+     "w": "intent",
+     "f": 29
+    },
+    {
+     "w": "and",
+     "f": 61
+    },
+    {
+     "w": "quotes",
+     "f": 68
+    },
+    {
+     "w": "the",
+     "f": 79
+    },
+    {
+     "w": "caller",
+     "f": 81
+    }
+   ],
+   "onset": 0.154
+  },
+  {
+   "id": "h4",
+   "scene": "how",
+   "from": 4096,
+   "local": 359,
+   "dur": 127,
+   "src": "vo/h4.mp3",
+   "text": "Ruko shows the higher score, so a scammer can't talk it back to green.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "Ruko shows the higher score,",
+     "start": 0.1,
+     "end": 1.7590000000000001
+    },
+    {
+     "text": "so a scammer can't talk it back to green.",
+     "start": 1.76,
+     "end": 3.865
+    }
+   ],
+   "words": [
+    {
+     "w": "Rooko",
+     "f": 2
+    },
+    {
+     "w": "shows",
+     "f": 12
+    },
+    {
+     "w": "the",
+     "f": 25
+    },
+    {
+     "w": "higher",
+     "f": 27
+    },
+    {
+     "w": "score",
+     "f": 39
+    },
+    {
+     "w": "so",
+     "f": 53
+    },
+    {
+     "w": "a",
+     "f": 58
+    },
+    {
+     "w": "scammer",
+     "f": 60
+    },
+    {
+     "w": "can't",
+     "f": 77
+    },
+    {
+     "w": "talk",
+     "f": 84
+    },
+    {
+     "w": "it",
+     "f": 91
+    },
+    {
+     "w": "back",
+     "f": 93
+    },
+    {
+     "w": "to",
+     "f": 100
+    },
+    {
+     "w": "green",
+     "f": 103
+    }
+   ],
+   "onset": 0.11
+  },
+  {
+   "id": "e1",
+   "scene": "proof",
+   "from": 4233,
+   "local": 10,
+   "dur": 73,
+   "src": "vo/e1.mp3",
+   "text": "On 32 cases we wrote:",
+   "who": "",
+   "phrases": [
+    {
+     "text": "On 32 cases we wrote:",
+     "start": 0.133,
+     "end": 2.066
+    }
+   ],
+   "words": [
+    {
+     "w": "On",
+     "f": 3
+    },
+    {
+     "w": "thirty-two",
+     "f": 11
+    },
+    {
+     "w": "cases",
+     "f": 31
+    },
+    {
+     "w": "we",
+     "f": 45
+    },
+    {
+     "w": "wrote",
+     "f": 49
+    }
+   ],
+   "onset": 0.146
+  },
+  {
+   "id": "e2",
+   "scene": "proof",
+   "from": 4314,
+   "local": 91,
+   "dur": 177,
+   "src": "vo/e2.mp3",
+   "text": "Rules alone caught 16 of 18 scams. With Claude, all 18.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "Rules alone caught 16 of 18 scams.",
+     "start": 0.1,
+     "end": 3.4810000000000003
+    },
+    {
+     "text": "With Claude, all 18.",
+     "start": 3.482,
+     "end": 5.51
+    }
+   ],
+   "words": [
+    {
+     "w": "Rules",
+     "f": 2
+    },
+    {
+     "w": "alone",
+     "f": 13
+    },
+    {
+     "w": "caught",
+     "f": 27
+    },
+    {
+     "w": "sixteen",
+     "f": 36
+    },
+    {
+     "w": "of",
+     "f": 54
+    },
+    {
+     "w": "eighteen",
+     "f": 62
+    },
+    {
+     "w": "scams",
+     "f": 75
+    },
+    {
+     "w": "With",
+     "f": 104
+    },
+    {
+     "w": "Claude",
+     "f": 110
+    },
+    {
+     "w": "all",
+     "f": 138
+    },
+    {
+     "w": "eighteen",
+     "f": 147
+    }
+   ],
+   "onset": 0.105
+  },
+  {
+   "id": "e3",
+   "scene": "proof",
+   "from": 4499,
+   "local": 276,
+   "dur": 132,
+   "src": "vo/e3.mp3",
+   "text": "2 of 14 real ones still got a caution. We show that too.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "2 of 14 real ones still got a caution.",
+     "start": 0.1,
+     "end": 3.009
+    },
+    {
+     "text": "We show that too.",
+     "start": 3.01,
+     "end": 4.005
+    }
+   ],
+   "words": [
+    {
+     "w": "Two",
+     "f": 2
+    },
+    {
+     "w": "of",
+     "f": 13
+    },
+    {
+     "w": "fourteen",
+     "f": 18
+    },
+    {
+     "w": "real",
+     "f": 35
+    },
+    {
+     "w": "ones",
+     "f": 43
+    },
+    {
+     "w": "still",
+     "f": 51
+    },
+    {
+     "w": "got",
+     "f": 58
+    },
+    {
+     "w": "a",
+     "f": 62
+    },
+    {
+     "w": "caution",
+     "f": 63
+    },
+    {
+     "w": "We",
+     "f": 90
+    },
+    {
+     "w": "show",
+     "f": 93
+    },
+    {
+     "w": "that",
+     "f": 102
+    },
+    {
+     "w": "too",
+     "f": 108
+    }
+   ],
+   "onset": 0.13
+  },
+  {
+   "id": "t1",
+   "scene": "trust",
+   "from": 4641,
+   "local": 8,
+   "dur": 212,
+   "src": "vo/t1.mp3",
+   "text": "No accounts. No audio leaves the device. Big type, screen-reader announcements, and Hindi.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "No accounts.",
+     "start": 0.133,
+     "end": 1.389
+    },
+    {
+     "text": "No audio leaves the device.",
+     "start": 1.39,
+     "end": 3.7110000000000003
+    },
+    {
+     "text": "Big type, screen-reader announcements, and Hindi.",
+     "start": 3.712,
+     "end": 6.709
+    }
+   ],
+   "words": [
+    {
+     "w": "No",
+     "f": 3
+    },
+    {
+     "w": "accounts",
+     "f": 11
+    },
+    {
+     "w": "No",
+     "f": 42
+    },
+    {
+     "w": "audio",
+     "f": 52
+    },
+    {
+     "w": "leaves",
+     "f": 68
+    },
+    {
+     "w": "the",
+     "f": 78
+    },
+    {
+     "w": "device",
+     "f": 81
+    },
+    {
+     "w": "Big",
+     "f": 111
+    },
+    {
+     "w": "type",
+     "f": 117
+    },
+    {
+     "w": "screen-reader",
+     "f": 137
+    },
+    {
+     "w": "announcements",
+     "f": 157
+    },
+    {
+     "w": "and",
+     "f": 177
+    },
+    {
+     "w": "Hindi",
+     "f": 186
+    }
+   ],
+   "onset": 0.135
+  },
+  {
+   "id": "x1",
+   "scene": "close",
+   "from": 4863,
+   "local": 10,
+   "dur": 165,
+   "src": "vo/x1.mp3",
+   "text": "Next: Android call screening, more languages, and bank and NGO partners.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "Next: Android call screening, more languages,",
+     "start": 0.1,
+     "end": 2.843
+    },
+    {
+     "text": "and bank and NGO partners.",
+     "start": 2.844,
+     "end": 5.102
+    }
+   ],
+   "words": [
+    {
+     "w": "Next",
+     "f": 2
+    },
+    {
+     "w": "Android",
+     "f": 24
+    },
+    {
+     "w": "call",
+     "f": 36
+    },
+    {
+     "w": "screening",
+     "f": 44
+    },
+    {
+     "w": "more",
+     "f": 60
+    },
+    {
+     "w": "languages",
+     "f": 66
+    },
+    {
+     "w": "and",
+     "f": 85
+    },
+    {
+     "w": "bank",
+     "f": 92
+    },
+    {
+     "w": "and",
+     "f": 108
+    },
+    {
+     "w": "N",
+     "f": 117
+    },
+    {
+     "w": "G",
+     "f": 124
+    },
+    {
+     "w": "O",
+     "f": 131
+    },
+    {
+     "w": "partners",
+     "f": 134
+    }
+   ],
+   "onset": 0.122
+  },
+  {
+   "id": "x2",
+   "scene": "close",
+   "from": 5036,
+   "local": 183,
+   "dur": 88,
+   "src": "vo/x2.mp3",
+   "text": "Ruko. Wait, before you pay.",
+   "who": "",
+   "phrases": [
+    {
+     "text": "Ruko.",
+     "start": 0.1,
+     "end": 1.096
+    },
+    {
+     "text": "Wait, before you pay.",
+     "start": 1.097,
+     "end": 2.528
+    }
+   ],
+   "words": [
+    {
+     "w": "Rooko",
+     "f": 2
+    },
+    {
+     "w": "Wait",
+     "f": 33
+    },
+    {
+     "w": "before",
+     "f": 48
+    },
+    {
+     "w": "you",
+     "f": 58
+    },
+    {
+     "w": "pay",
+     "f": 62
+    }
+   ],
+   "onset": 0.112
+  }
+ ]
+}

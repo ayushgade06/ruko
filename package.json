@@ -11,6 +11,7 @@
     "eval": "node scripts/eval.mjs"
   },
   "dependencies": {
+    "@ai-sdk/openai-compatible": "^3.0.90",
     "ai": "^7.0.169",
     "next": "16.4.6",
     "react": "19.3.0",

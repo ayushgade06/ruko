@@ -1,0 +1,304 @@
+{
+ "voice": "en-US-AvaMultilingualNeural",
+ "rate": "-2%",
+ "fps": 30,
+ "transition": 18,
+ "gap": 8,
+ "note": "{display|spoken}: captions show `display`, the voice says `spoken`. lead/gap/tail are frames. `who` picks a cast member (voice, rate, pitch, phone EQ, caption label). Every fact is sourced in VOICEOVER.md.",
+ "cast": {
+  "irs": {
+   "voice": "en-US-GuyNeural",
+   "rate": "+4%",
+   "pitch": "-4Hz",
+   "phone": true,
+   "label": "Caller · Ohio"
+  },
+  "cbi": {
+   "voice": "en-IN-PrabhatNeural",
+   "rate": "+2%",
+   "pitch": "-6Hz",
+   "phone": true,
+   "label": "Caller · Pune"
+  },
+  "bank": {
+   "voice": "en-IN-NeerjaExpressiveNeural",
+   "rate": "+4%",
+   "pitch": "+0Hz",
+   "phone": true,
+   "label": "Bank caller"
+  },
+  "kamala": {
+   "voice": "en-IN-NeerjaNeural",
+   "rate": "-8%",
+   "pitch": "-2Hz",
+   "label": "Kamala"
+  },
+  "frank": {
+   "voice": "en-US-ChristopherNeural",
+   "rate": "-6%",
+   "pitch": "-2Hz",
+   "label": "Frank"
+  }
+ },
+ "ticks": [
+  [
+   "d2",
+   "safe"
+  ],
+  [
+   "d2",
+   "careful"
+  ],
+  [
+   "d4",
+   "flag"
+  ],
+  [
+   "e2",
+   "sixteen"
+  ],
+  [
+   "e2",
+   "eighteen",
+   1
+  ]
+ ],
+ "scenes": [
+  {
+   "id": "cold",
+   "lead": 56,
+   "tail": 14,
+   "lines": [
+    {
+     "id": "c1",
+     "text": "A warrant has been issued for your arrest. Do not hang up.",
+     "who": "irs",
+     "gap": 4
+    },
+    {
+     "id": "c2",
+     "text": "Madam, you are under digital arrest.",
+     "who": "cbi",
+     "gap": 14
+    },
+    {
+     "id": "c4",
+     "text": "Same script. Every country."
+    }
+   ]
+  },
+  {
+   "id": "problem",
+   "lead": 14,
+   "tail": 10,
+   "lines": [
+    {
+     "id": "p2",
+     "text": "Authority… fear… isolation… and an unusual payment.",
+     "gap": 14
+    },
+    {
+     "id": "p3",
+     "text": "Last year, Americans over sixty reported {$7.7 billion|seven point seven billion dollars} in losses to the FBI."
+    },
+    {
+     "id": "p4",
+     "text": "India has blocked over {83,000|eighty-three thousand} WhatsApp accounts used for digital arrest.",
+     "gap": 14
+    },
+    {
+     "id": "p5",
+     "text": "Caller ID and awareness only work before the call."
+    },
+    {
+     "id": "p6",
+     "text": "Nothing helps during it."
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "lead": 16,
+   "tail": 8,
+   "lines": [
+    {
+     "id": "r1",
+     "text": "So we built {Ruko|Rooko}. In Hindi, it means: wait."
+    },
+    {
+     "id": "r2",
+     "text": "A calm second voice in the room, during the call."
+    }
+   ],
+   "reveal": true
+  },
+  {
+   "id": "demo",
+   "lead": 10,
+   "tail": 14,
+   "lines": [
+    {
+     "id": "d1",
+     "text": "This is Inspector Rajesh Sharma, from Mumbai Cyber Crime.",
+     "who": "cbi"
+    },
+    {
+     "id": "d2",
+     "text": "{Ruko|Rooko} hears it. On the device, the rules call it safe. Seconds later, Claude says: be careful."
+    },
+    {
+     "id": "d3",
+     "text": "You are under digital arrest. Do not disconnect, and do not tell anyone.",
+     "who": "cbi"
+    },
+    {
+     "id": "d4",
+     "text": "Every flag quotes the caller's own words. The meter hits danger, and never drops."
+    },
+    {
+     "id": "d5",
+     "text": "Transfer your savings to an RBI verification account.",
+     "who": "cbi"
+    },
+    {
+     "id": "d6",
+     "text": "Before any money moves, {Ruko|Rooko} tells her what to say.",
+     "gap": 10
+    },
+    {
+     "id": "d7",
+     "text": "I will not transfer any money, and I am hanging up now to call my family and the police directly.",
+     "who": "kamala",
+     "gap": 30
+    },
+    {
+     "id": "d8",
+     "text": "Hang up. This is a scam. Help, and family, are one tap away."
+    }
+   ]
+  },
+  {
+   "id": "irs",
+   "lead": 8,
+   "tail": 12,
+   "lines": [
+    {
+     "id": "i1",
+     "text": "You can settle the balance right now with Apple gift cards.",
+     "who": "irs"
+    },
+    {
+     "id": "i2",
+     "text": "Same script in Ohio. Same catch."
+    },
+    {
+     "id": "i3",
+     "text": "I am not paying anything over the phone, and I am hanging up now.",
+     "who": "frank"
+    }
+   ]
+  },
+  {
+   "id": "bank",
+   "lead": 10,
+   "tail": 12,
+   "lines": [
+    {
+     "id": "b1",
+     "text": "Please remember, the bank will never ask for your PIN or OTP.",
+     "who": "bank"
+    },
+    {
+     "id": "b2",
+     "text": "And a real call? No red flags, no warning. Just a gentle be careful."
+    }
+   ]
+  },
+  {
+   "id": "check",
+   "lead": 8,
+   "tail": 10,
+   "lines": [
+    {
+     "id": "k1",
+     "text": "A strange text? Paste it in. Same verdict, in seconds."
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "lead": 10,
+   "tail": 10,
+   "lines": [
+    {
+     "id": "h2",
+     "text": "On your device, rules for {13|thirteen} scam tactics, in English, Hindi and Hinglish, react instantly."
+    },
+    {
+     "id": "h3",
+     "text": "Claude reads the intent, and quotes the caller."
+    },
+    {
+     "id": "h4",
+     "text": "{Ruko|Rooko} shows the higher score, so a scammer can't talk it back to green."
+    }
+   ]
+  },
+  {
+   "id": "proof",
+   "lead": 10,
+   "tail": 12,
+   "lines": [
+    {
+     "id": "e1",
+     "text": "On {32|thirty-two} cases we wrote:"
+    },
+    {
+     "id": "e2",
+     "text": "Rules alone caught {16|sixteen} of {18|eighteen} scams. With Claude, all {18|eighteen}."
+    },
+    {
+     "id": "e3",
+     "text": "{2|Two} of {14|fourteen} real ones still got a caution. We show that too."
+    }
+   ]
+  },
+  {
+   "id": "trust",
+   "lead": 8,
+   "tail": 10,
+   "lines": [
+    {
+     "id": "t1",
+     "text": "No accounts. No audio leaves the device. Big type, screen-reader announcements, and Hindi."
+    }
+   ]
+  },
+  {
+   "id": "close",
+   "lead": 10,
+   "tail": 92,
+   "lines": [
+    {
+     "id": "x1",
+     "text": "Next: Android call screening, more languages, and bank and {NGO|N G O} partners."
+    },
+    {
+     "id": "x2",
+     "text": "{Ruko|Rooko}. Wait, before you pay.",
+     "rate": "-10%",
+     "gap": 0
+    }
+   ]
+  }
+ ],
+ "swell": [
+  "d4",
+  "danger"
+ ],
+ "hangup": [
+  "d7",
+  "d8"
+ ],
+ "ring_until": "c1"
+}

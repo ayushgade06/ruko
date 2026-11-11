@@ -45,7 +45,8 @@ Browser                                              Vercel (Node.js)
 | Detector | Scams caught | False alarms |
 |---|---|---|
 | Rules only | 16 / 18 | 2 / 14 |
-| Ruko (rules + AI) | _run with AI key_ | _run with AI key_ |
+| AI only (Claude Haiku 5.5) | 18 / 18 | 0 / 14 |
+| Ruko (rules + AI) | 18 / 18 | 2 / 14 |
 
 ## Run it
 
@@ -58,6 +59,7 @@ npm run eval         # accuracy eval against a running app (BASE_URL=... to targ
 ```
 
 Optional: `RUKO_MODEL` overrides the model (default `anthropic/claude-haiku-5.5`).
+No AI Gateway key? `OPENROUTER_API_KEY=...` in `.env.local` routes the same model through OpenRouter instead.
 In production, add a Vercel Firewall rate-limit rule on `/api/analyze` (e.g. 30 req/min per IP).
 
 ## Built with

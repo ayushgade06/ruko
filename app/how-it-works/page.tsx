@@ -22,7 +22,7 @@ export default function HowItWorks() {
           {[
             ["1. Hear", "Your browser turns the call into text using built-in speech recognition. Audio never leaves your device."],
             ["2. Instant rules", "A rules engine checks every new sentence for 13 scam tactics in English, Hindi and Hinglish, in milliseconds, on your device. It still works if the AI is down."],
-            ["3. AI check", "The text so far goes to Claude (via Vercel AI Gateway), which reads intent the way a person would and returns a structured verdict: score, quoted red flags, what to say, what to do."],
+            ["3. AI check", "The text so far goes to Claude Haiku 5.5, which reads intent the way a person would and returns a structured verdict: score, quoted red flags, what to say, what to do."],
             ["4. Never downgrade", "The rules score is a floor and the meter only goes up during a call. A scammer can't talk the meter back to green."],
           ].map(([h, b]) => (
             <li key={h} className="rounded-2xl border border-line bg-card p-4">
