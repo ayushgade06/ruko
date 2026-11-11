@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Icon } from "@/components/Icon";
 import { Header } from "@/components/Header";
 import { usePrefs } from "@/components/Prefs";
 import { Advice, Announcer, DangerActions, FlagList, RiskMeter } from "@/components/Verdict";
@@ -55,7 +56,7 @@ export default function CheckPage() {
     <>
       <Header />
       <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-12 pt-6">
-        <h1 className="font-display text-4xl font-bold">{t.checkTitle}</h1>
+        <h1 className="text-[2.4rem] font-extrabold leading-tight tracking-[-0.01em]">{t.checkTitle}</h1>
         <p className="mt-2 text-lg text-muted">{t.checkHint}</p>
 
         <form onSubmit={check} className="mt-6 grid gap-3">
@@ -71,12 +72,12 @@ export default function CheckPage() {
               className="w-full rounded-2xl border-2 border-line bg-card p-4 text-lg placeholder:text-muted/70" />
           )}
           <div className="flex flex-wrap gap-3">
-            <button disabled={busy || (!text.trim() && !image)} className="min-h-14 flex-1 rounded-2xl bg-accent px-6 text-xl font-bold text-accent-ink disabled:opacity-50">
+            <button disabled={busy || (!text.trim() && !image)} className="min-h-16 flex-1 rounded-[22px] bg-accent px-6 text-xl font-bold text-accent-ink disabled:opacity-50">
               {busy ? t.checking : t.checkBtn}
             </button>
             {!image && (
-              <label className="flex min-h-14 cursor-pointer items-center rounded-2xl border-2 border-line bg-card px-5 font-semibold focus-within:outline-3 focus-within:outline-accent">
-                🖼️ {t.upload}
+              <label className="flex min-h-16 cursor-pointer items-center gap-2 rounded-[22px] border-2 border-ink/80 px-5 font-bold hover:bg-card focus-within:outline-3 focus-within:outline-accent">
+                <Icon name="image" />{t.upload}
                 <input type="file" accept="image/png,image/jpeg,image/webp" className="sr-only"
                   onChange={async (e) => { const f = e.target.files?.[0]; if (f) { setImage(await toDataUrl(f)); setView(null); } e.target.value = ""; }} />
               </label>
@@ -89,9 +90,9 @@ export default function CheckPage() {
         {view && (
           <div className="mt-8 grid gap-5" aria-busy={busy}>
             <Announcer view={view} />
-            {busy && <p className="text-sm font-semibold text-accent">⏳ {t.aiChecking}</p>}
+            {busy && <p className="text-sm font-semibold text-accent">{t.aiChecking}</p>}
             <DangerActions view={view} />
-            <div className="rounded-3xl border border-line bg-card px-4 pb-5 pt-6">
+            <div className="rounded-[22px] bg-card px-4 pb-5 pt-6 shadow-[0_1px_2px_rgba(15,27,45,.06)]">
               <RiskMeter score={view.score} level={view.level} />
             </div>
             <Advice view={view} />

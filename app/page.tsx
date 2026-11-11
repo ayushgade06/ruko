@@ -2,55 +2,74 @@
 
 import Link from "next/link";
 import { Mark } from "@/components/Header";
+import { Icon } from "@/components/Icon";
 import { usePrefs } from "@/components/Prefs";
 import { T } from "@/lib/i18n";
+
+const CATCHES = {
+  en: [
+    ["India", "“Digital arrest”, fake CBI officers, parcel and KYC scams"],
+    ["United States", "Fake IRS, Social Security and tech-support calls, and the grandchild-in-jail scam"],
+    ["Even offline", "The basic check runs on your phone, so you are warned within seconds even if the AI is down"],
+  ],
+  hi: [
+    ["भारत", "“डिजिटल अरेस्ट”, नकली CBI, पार्सल और KYC ठगी"],
+    ["अमेरिका", "नकली IRS, Social Security, टेक-सपोर्ट और ‘पोते की इमरजेंसी’ ठगी"],
+    ["AI के बिना भी", "बुनियादी जाँच आपके फ़ोन पर चलती है, इसलिए AI बंद हो तब भी कुछ सेकंड में चेतावनी"],
+  ],
+} as const;
 
 export default function Home() {
   const { lang } = usePrefs();
   const t = T[lang];
   return (
-    <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-12 pt-10">
+    <main className="mx-auto w-full max-w-2xl flex-1 px-5 pb-14 pt-8">
       <div className="flex items-center gap-3">
-        <Mark className="size-12" />
-        <div>
-          <h1 className="font-display text-5xl font-bold leading-none tracking-tight">Ruko</h1>
-          <p lang="hi" className="text-muted">रुको · wait</p>
-        </div>
+        <Mark className="size-11" />
+        <p className="text-2xl font-bold tracking-tight">
+          Ruko <span lang="hi" className="ml-1 font-normal text-muted">रुको, “wait”</span>
+        </p>
       </div>
 
-      <p className="mt-8 max-w-xl font-display text-[1.75rem] font-semibold leading-snug">{t.tagline}</p>
+      <h1 className="mt-14 text-[2.6rem] font-extrabold leading-[1.05] tracking-[-0.02em] text-balance sm:text-[3.4rem]">{t.tagline}</h1>
 
-      <nav className="mt-8 grid gap-4" aria-label="Start">
-        <Link href="/listen" className="group flex min-h-24 items-center gap-4 rounded-3xl bg-accent px-6 py-5 text-accent-ink shadow-sm transition-transform active:scale-[0.99]">
-          <span aria-hidden className="grid size-14 shrink-0 place-items-center rounded-2xl bg-white/15 text-3xl">🎧</span>
+      <nav className="mt-10 grid gap-3" aria-label="Start">
+        <Link
+          href="/listen"
+          className="flex min-h-24 items-center gap-5 rounded-[22px] bg-accent px-6 py-5 text-accent-ink shadow-[0_1px_0_rgba(0,0,0,.08),0_12px_30px_-12px_rgba(42,63,176,.55)] active:translate-y-px"
+        >
+          <span className="grid size-14 shrink-0 place-items-center rounded-full bg-accent-ink/15">
+            <Icon name="mic" className="size-7" />
+          </span>
           <span>
             <span className="block text-2xl font-bold">{t.listen}</span>
             <span className="block opacity-90">{t.listenSub}</span>
           </span>
-          <span aria-hidden className="ml-auto text-3xl transition-transform group-hover:translate-x-1">→</span>
         </Link>
-        <Link href="/check" className="group flex min-h-24 items-center gap-4 rounded-3xl border-2 border-line bg-card px-6 py-5 transition-transform active:scale-[0.99]">
-          <span aria-hidden className="grid size-14 shrink-0 place-items-center rounded-2xl bg-accent-soft text-3xl">💬</span>
+        <Link href="/check" className="flex min-h-24 items-center gap-5 rounded-[22px] border-2 border-ink/80 px-6 py-5 hover:bg-card active:translate-y-px">
+          <span className="grid size-14 shrink-0 place-items-center rounded-full bg-accent-soft text-accent">
+            <Icon name="message" className="size-7" />
+          </span>
           <span>
             <span className="block text-2xl font-bold">{t.check}</span>
             <span className="block text-muted">{t.checkSub}</span>
           </span>
-          <span aria-hidden className="ml-auto text-3xl text-muted transition-transform group-hover:translate-x-1">→</span>
         </Link>
       </nav>
 
-      <Link href="/listen?demo=digital-arrest" className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full border border-line bg-card px-5 font-semibold text-accent">
-        ▶ {t.tryDemo}
+      <Link href="/listen?demo=digital-arrest" className="mt-5 inline-flex min-h-12 items-center gap-2.5 font-bold text-accent underline decoration-2 underline-offset-[6px]">
+        <Icon name="play" filled className="size-4" />
+        {t.tryDemo}
       </Link>
 
-      <ul className="mt-12 grid gap-3 text-muted sm:grid-cols-3">
-        {(lang === "hi"
-          ? [["🇮🇳", "“डिजिटल अरेस्ट”, नकली CBI, पार्सल और KYC ठगी"], ["🇺🇸", "IRS, Social Security, टेक-सपोर्ट और ‘पोते की इमरजेंसी’ ठगी"], ["⚡", "कुछ सेकंड में चेतावनी — AI बंद हो तब भी"]]
-          : [["🇮🇳", "“Digital arrest”, fake CBI, parcel & KYC scams"], ["🇺🇸", "IRS, Social Security, tech-support & grandparent scams"], ["⚡", "Warns within seconds, even if the AI is down"]]
-        ).map(([i, s]) => (
-          <li key={s} className="rounded-2xl border border-line p-4 text-[0.95rem]"><span aria-hidden className="mr-1">{i}</span>{s}</li>
+      <dl className="mt-16 grid gap-6 border-t-2 border-ink pt-6 sm:grid-cols-3 sm:gap-8">
+        {CATCHES[lang].map(([k, v]) => (
+          <div key={k}>
+            <dt className="font-bold">{k}</dt>
+            <dd className="mt-1 text-muted">{v}</dd>
+          </div>
         ))}
-      </ul>
+      </dl>
     </main>
   );
 }

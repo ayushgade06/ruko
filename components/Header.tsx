@@ -15,11 +15,11 @@ export function Mark({ className = "size-9" }: { className?: string }) {
 
 export function Header({ right }: { right?: React.ReactNode }) {
   return (
-    <header className="px-4 pt-4">
-      <div className="mx-auto flex max-w-2xl items-center justify-between gap-3">
-        <Link href="/" className="flex items-center gap-2 rounded-lg" aria-label="Ruko home">
+    <header className="border-b border-line px-5 py-3">
+      <div className="mx-auto flex min-h-12 max-w-2xl items-center justify-between gap-3">
+        <Link href="/" className="flex items-center gap-2.5 rounded-lg" aria-label="Ruko home">
           <Mark />
-          <span className="font-display text-2xl font-bold tracking-tight">Ruko</span>
+          <span className="text-2xl font-bold tracking-tight">Ruko</span>
         </Link>
         {right}
       </div>

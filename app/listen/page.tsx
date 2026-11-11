@@ -2,6 +2,7 @@
 
 import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
+import { Icon } from "@/components/Icon";
 import { Header } from "@/components/Header";
 import { usePrefs } from "@/components/Prefs";
 import { Advice, Announcer, DangerActions, FlagList, RiskMeter } from "@/components/Verdict";
@@ -178,7 +179,7 @@ function Listen() {
       <Header
         right={
           live ? (
-            <button onClick={stopAll} className="min-h-11 rounded-full border-2 border-ink px-5 font-bold">■ {t.stop}</button>
+            <button onClick={stopAll} className="flex min-h-12 items-center gap-2 rounded-full bg-ink px-5 font-bold text-paper"><Icon name="stop" filled className="size-4" />{t.stop}</button>
           ) : null
         }
       />
@@ -190,7 +191,7 @@ function Listen() {
           {live && (
             <span className="inline-flex items-center gap-2 rounded-full bg-card px-3 py-1.5 font-semibold">
               <span className="pulse-ring relative size-2.5 rounded-full bg-danger text-danger" />
-              {status === "demo" ? `${t.demo} · ${activeDemo?.title}` : t.listening}
+              {status === "demo" ? `${t.demo}: ${activeDemo?.title}` : t.listening}
             </span>
           )}
           {status === "stopped" && <span className="rounded-full bg-card px-3 py-1.5 font-semibold text-muted">{t.stopped}</span>}
@@ -200,21 +201,21 @@ function Listen() {
             </span>
           )}
           {status === "demo" && (
-            <button onClick={() => { mutedRef.current = !muted; setMuted(!muted); }} aria-pressed={!muted} className="rounded-full border border-line px-3 py-1.5 font-semibold">
-              {muted ? "🔇" : "🔊"} {t.sound}
+            <button onClick={() => { mutedRef.current = !muted; setMuted(!muted); }} aria-pressed={!muted} className="inline-flex min-h-10 items-center gap-1.5 rounded-full border border-line px-3 font-semibold">
+              <Icon name={muted ? "muted" : "sound"} className="size-4" />{t.sound}
             </button>
           )}
         </div>
 
         {!started && (
-          <section className="mt-4 rounded-3xl border border-line bg-card p-6">
-            <h1 className="font-display text-3xl font-bold">{t.micTitle}</h1>
+          <section className="mt-6">
+            <h1 className="text-[2.2rem] font-extrabold leading-tight tracking-[-0.01em]">{t.micTitle}</h1>
             <p className="mt-3 text-lg">{t.micBody}</p>
             {(status === "unsupported" || status === "denied") && (
               <p role="alert" className="mt-4 rounded-xl bg-caution-bg p-3 font-semibold text-caution">{t[status]}</p>
             )}
-            <button onClick={startListening} className="mt-5 min-h-16 w-full rounded-2xl bg-accent text-xl font-bold text-accent-ink">
-              🎧 {t.start}
+            <button onClick={startListening} className="mt-6 flex min-h-18 w-full items-center justify-center gap-3 rounded-[22px] bg-accent text-xl font-bold text-accent-ink shadow-[0_12px_30px_-12px_rgba(42,63,176,.55)]">
+              <Icon name="mic" className="size-7" />{t.start}
             </button>
           </section>
         )}
@@ -222,7 +223,7 @@ function Listen() {
         {started && (
           <div className="mt-4 grid gap-5">
             <DangerActions view={shown} region={activeDemo ? (activeDemo.place === "India" ? "IN" : "US") : undefined} />
-            <div className="rounded-3xl border border-line bg-card px-4 pb-5 pt-6">
+            <div className="rounded-[22px] bg-card px-4 pb-5 pt-6 shadow-[0_1px_2px_rgba(15,27,45,.06)]">
               <RiskMeter score={score} level={level} />
             </div>
             <Advice view={shown} />
@@ -232,12 +233,12 @@ function Listen() {
 
         {/* Transcript */}
         {started && (
-          <details open className="mt-6 rounded-2xl border border-line bg-card p-4">
-            <summary className="cursor-pointer font-bold">{t.transcript}</summary>
+          <details open className="mt-6 rounded-[22px] border-2 border-line p-5">
+            <summary className="min-h-8 cursor-pointer text-xl font-bold">{t.transcript}</summary>
             <ol className="mt-3 max-h-72 space-y-2 overflow-y-auto text-[0.95rem]">
               {lines.map((l, i) => (
                 <li key={i} className={l.who === "you" ? "text-muted" : ""}>
-                  {l.who && <span className="mr-1 font-bold">{l.who === "caller" ? "📞" : "🙋"}</span>}
+                  {l.who && <span className="mr-2 font-bold">{l.who === "caller" ? (lang === "hi" ? "कॉलर:" : "Caller:") : (lang === "hi" ? "आप:" : "You:")}</span>}
                   {l.text}
                 </li>
               ))}
@@ -255,17 +256,17 @@ function Listen() {
           <div className="mt-2 flex gap-2">
             <input id="typed" value={typed} onChange={(e) => setTyped(e.target.value)} placeholder={t.typePlaceholder}
               className="min-h-12 w-full rounded-xl border-2 border-line bg-card px-3 placeholder:text-muted/70" />
-            <button className="min-h-12 rounded-xl bg-ink px-5 font-bold text-paper">{t.add}</button>
+            <button className="min-h-12 rounded-xl bg-ink px-6 font-bold text-paper">{t.add}</button>
           </div>
         </form>
 
         {/* Demo picker */}
         <section className="mt-8" aria-labelledby="demos-h">
-          <h2 id="demos-h" className="text-sm font-bold uppercase tracking-widest text-muted">▶ {t.pickDemo}</h2>
+          <h2 id="demos-h" className="text-xl font-bold">{t.pickDemo}</h2>
           <div className="mt-3 grid gap-2 sm:grid-cols-2">
             {DEMOS.map((d) => (
               <button key={d.id} onClick={() => playDemo(d)}
-                className={`min-h-16 rounded-2xl border-2 px-4 py-3 text-left transition-colors ${pre?.id === d.id && status === "idle" ? "border-accent bg-accent-soft" : "border-line bg-card hover:border-accent"}`}>
+                className={`min-h-16 rounded-2xl border-2 px-4 py-3 text-left ${pre?.id === d.id && status === "idle" ? "border-accent bg-accent-soft" : "border-line bg-card hover:border-accent"}`}>
                 <span className="block font-bold">{d.title}</span>
                 <span className="text-sm text-muted">{d.place}</span>
               </button>

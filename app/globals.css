@@ -1,40 +1,42 @@
 @import "tailwindcss";
 
+/* Ruko: calm, official, legible. Cool porcelain paper, navy ink, cobalt "stamp" accent.
+   Status colours are reserved for the verdict and never used as decoration. */
 :root {
-  --paper: #f7f4ee;
+  --paper: #eef1f5;
   --card: #ffffff;
-  --ink: #15181b;
-  --muted: #4d545c;
-  --line: #e2dccf;
-  --accent: #0d5c6b;
+  --ink: #0f1b2d;
+  --muted: #475467;
+  --line: #d3dae4;
+  --accent: #2a3fb0;
   --accent-ink: #ffffff;
-  --accent-soft: #e2eff1;
-  --safe: #1a7449;
-  --caution: #8a5700;
+  --accent-soft: #e4e8f8;
+  --safe: #17703f;
+  --caution: #8a5300;
   --danger: #b3261e;
-  --safe-bg: #e5f3eb;
-  --caution-bg: #fcf0d6;
-  --danger-bg: #fbe5e3;
+  --safe-bg: #e3f2e8;
+  --caution-bg: #fbefd5;
+  --danger-bg: #fbe4e2;
   --danger-solid: #b3261e;
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --paper: #101214;
-    --card: #191c20;
-    --ink: #f1eee8;
-    --muted: #aab1b9;
-    --line: #2c3137;
-    --accent: #6cc0cf;
-    --accent-ink: #08191c;
-    --accent-soft: #15292d;
+    --paper: #0b1220;
+    --card: #141d2e;
+    --ink: #edf1f7;
+    --muted: #a3aec0;
+    --line: #27324a;
+    --accent: #a9b7ff;
+    --accent-ink: #0b1220;
+    --accent-soft: #1a2442;
     --safe: #63cf95;
     --caution: #f2bb52;
     --danger: #ff8f86;
-    --safe-bg: #11261b;
+    --safe-bg: #10251a;
     --caution-bg: #2a2110;
-    --danger-bg: #301614;
+    --danger-bg: #2f1517;
     --danger-solid: #b3261e;
     color-scheme: dark;
   }
@@ -56,8 +58,9 @@
   --color-caution-bg: var(--caution-bg);
   --color-danger-bg: var(--danger-bg);
   --color-danger-solid: var(--danger-solid);
-  --font-sans: var(--font-noto), var(--font-noto-deva), system-ui, sans-serif;
-  --font-display: var(--font-fraunces), Georgia, serif;
+  /* One family: Atkinson Hyperlegible Next (Braille Institute, designed for low vision). */
+  --font-sans: var(--font-atk), var(--font-noto-deva), system-ui, sans-serif;
+  --font-display: var(--font-atk), var(--font-noto-deva), system-ui, sans-serif;
 }
 
 html {
@@ -67,7 +70,9 @@ html {
 body {
   background: var(--paper);
   color: var(--ink);
+  line-height: 1.5;
   -webkit-tap-highlight-color: transparent;
+  font-feature-settings: "ss01";
 }
 
 :focus-visible {
