@@ -2,7 +2,7 @@
 
 > **Ruko** (रुको, Hindi for "wait") listens to a suspicious phone call on speaker, flags scam tactics live, and tells you exactly what to say and do — before you lose your savings.
 
-**Live:** _add Vercel URL here_ · **Demo video:** _add YouTube link here_ · Built for **IceHacks 2026**
+**Live:** https://ruko-nine.vercel.app · **Demo video:** _add YouTube link here_ · Built for **IceHacks 2026**
 
 ## The problem
 

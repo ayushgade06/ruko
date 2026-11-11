@@ -51,3 +51,6 @@ next-env.d.ts
 *.mp4
 /video/captions/
 /video/gallery/
+
+.vercel
+.env*
